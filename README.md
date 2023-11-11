@@ -2,7 +2,7 @@
 
 This contains Python codes of our experiments on privacy level (for the entire dataset), example of real data analysis (using genome statistics), and run time.
 
-In the evaluation of privacy level, we compared our two methods (optimal solution that solves a linear programming problem and heuristic method) with the existing Kronecker product-based method, when the privacy level for each attribute information is fixed. 
+In the evaluation of privacy level, we compared our two methods (optimal solution that solves a linear programming problem and heuristic method) with the existing Kronecker product-based method [[Wang et al., 2016](https://ceur-ws.org/Vol-1558/paper35.pdf)], when the privacy level for each attribute information is fixed. 
 
 As an example of real data analysis, we considered the case where the privacy level for the entire dataset is fixed and evaluated the accuracy of output $\chi^2$-statistics in genomic statistical analysis.
 
