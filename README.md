@@ -4,12 +4,12 @@ This contains Python codes of our experiments on privacy level (for the entire d
 
 In the evaluation of privacy level, we compared our two methods (optimal solution that solves a linear programming problem and heuristic method) with the existing Kronecker product-based method [[Wang et al., 2016](https://ceur-ws.org/Vol-1558/paper35.pdf)], when the privacy level for each attribute information is fixed. 
 
-As an example of real data analysis, we considered the case where the privacy level for the entire dataset is fixed and evaluated the accuracy of output (differentially private) $\chi^2$-statistics in genomic statistical analysis.
+As an analysis example using our method, we considered the case where the privacy level for the entire dataset is fixed and evaluated the accuracy of output (differentially private) $\chi^2$-statistics in genomic statistical analysis.
 
 We also measured the run time of our methods, and the results show that our heuristic method can be performed in about $1$ second even for a large dataset with $k = 1,000$.
 
 ## Future Directions
-
+・ Developing better heuristic methods that can achieve the privacy levels that are as close to the input ones as possible. (We feel that this task will be not as easy as it may seem.) ← When we use our method in the case where the privacy level for the entire dataset is fixed, this issue could be ignored.
 
 
 ## Note
