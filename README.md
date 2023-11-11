@@ -9,6 +9,8 @@ As an analysis example using our method, we considered the case where the privac
 We also measured the run time of our methods, and the results show that our heuristic method can be performed in about $1$ second even for a large dataset with $k = 1,000$.
 
 ## Future Directions
+・ Improving the optimality of our heuristic method (especially when $\epsilon_i$ is small or $a_i$ is large).
+
 ・ Developing better heuristic methods that can achieve the privacy levels that are as close to the input ones as possible. (We feel that this task will be not as easy as it may seem.) ← When we use our method in the case where the privacy level for the entire dataset is fixed, this issue could be ignored.
 
 
