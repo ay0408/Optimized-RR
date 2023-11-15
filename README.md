@@ -6,7 +6,7 @@ In the evaluation of privacy level, we compared our two methods (optimal solutio
 
 As an analysis example using our method, we considered the case where the privacy level for the entire dataset is fixed and evaluated the accuracy of output (differentially private) $\chi^2$-statistics in genomic statistical analysis.
 
-We also measured the run time of our methods, and the results show that our heuristic method can be performed in about $1$ second even for a large dataset with $k = 1,000$.
+The run time results show that our heuristic method can be performed in about $1$ second even for a large dataset with $k = 1,000$. In Run Time folder, we also provide the results when $k = 10,000$ and $k = 100,000$ for reference.
 
 ## Future Directions
 ・ Improving the optimality of our heuristic method (especially when $\epsilon_i$ is small or $a_i$ is large).
