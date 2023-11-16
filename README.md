@@ -11,7 +11,7 @@ The run time results show that our heuristic method can be performed in about $1
 ## Future Directions
 ・ Improving the optimality of our heuristic method (especially when $\epsilon_i$ is small or $a_i$ is large).
 
-・ Developing better heuristic methods that can achieve the privacy levels that are as close to the input ones as possible. (We feel that this task will not　be as easy as it may seem.) 
+・ Developing better heuristic methods that can achieve the privacy levels that are as close to the input ones as possible. (We feel that this task will not be as easy as it may seem.) 
 
 
 ## Note
