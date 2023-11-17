@@ -16,6 +16,8 @@ Set the minimum privacy level to be guaranteed for each of the $k$-attribute inf
 2. If not distributable, prioritize reducing the budget for information that does not require a high degree of accuracy or that can be expected to be accurate even with a small $\epsilon$. (Distibute a budget of almost $\epsilon_i$ as much as possible for information that requires a high degree of accuracy.)
 3. Ultimately, create a situation where privacy guarantees of $\epsilon_1, \epsilon_2, \dots, \epsilon_k$ or better are achieved for all information, respectively.
 
+Note that our methods are expected to distribute more privacy budgets than the existing Kronecker product-based method.
+
 ## Future Directions
 ・ The required privacy level for each information should vary depending on the kinds of data and the analysis purpose. In the future, it would be desirable to evaluate not only the privacy level as in our experiments, but also the accuracy in more detail for each analysis method. Furthermore, it would be fascinating to develop an optimal randomized response in terms of the trade-off between privacy and utility.
 
