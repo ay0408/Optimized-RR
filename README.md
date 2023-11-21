@@ -22,13 +22,13 @@ Note that our methods are expected to distribute more privacy budgets than the e
 Although it is also possible to consider $k$-attribute information collectively as single attribute information and employ the most basic randomized response, the privacy level for each attribute information cannot be changed in such a case; therefore, we did not discuss it in this study.
 
 ## Future Directions
-・ The required privacy level for each information should vary depending on the kinds of data and the analysis purpose. In the future, it would be desirable to evaluate not only the privacy level as in our experiments, but also the accuracy in more detail for each analysis method. Furthermore, it would be fascinating to develop an optimal randomized response in terms of the trade-off between privacy and utility.
+・The required privacy level for each information should vary depending on the kinds of data and the analysis purpose. In the future, it would be desirable to evaluate not only the privacy level as in our experiments, but also the accuracy in more detail for each analysis method. Furthermore, it would be fascinating to develop an optimal randomized response in terms of the trade-off between privacy and utility.
 
-・ Improving the optimality of our heuristic method (especially when $\epsilon_i$ is small or $a_i$ is large). 
+・Improving the optimality of our heuristic method (especially when $\epsilon_i$ is small or $a_i$ is large). 
 
-・ Developing better heuristic methods that can achieve the privacy levels that are as close to the input ones as possible. (We feel that this task is not be as easy as it may seem. Our proposed algorithm can achieve privacy levels closer to the input ones by changing the order of attributes, for example, but a method that does not require such a procedure like parameter-tuning would be more desirable.) 
+・Developing better heuristic methods that can achieve the privacy levels that are as close to the input ones as possible. (We feel that this task is not be as easy as it may seem. Our proposed algorithm can achieve privacy levels closer to the input ones by changing the order of attributes, for example, but a method that does not require such a procedure like parameter-tuning would be more desirable.) 
 
-・  Enhancing our methods under other concepts of differential privacy like One-Sided Differential Privacy [[Kotsogiannis et al., 2020](https://ieeexplore.ieee.org/document/9101725)].
+・Enhancing our methods under other concepts of differential privacy like One-Sided Differential Privacy [[Kotsogiannis et al., 2020](https://ieeexplore.ieee.org/document/9101725)].
 
 ## Note
 
