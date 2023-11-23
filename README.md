@@ -15,11 +15,11 @@ Set the minimum privacy level to be guaranteed for each of the $k$-attribute inf
 1. If $\epsilon_1, \epsilon_2, \dots, \epsilon_k$ are all distributable, distribute as is.
 2. If not distributable, prioritize reducing the budget for information that does not require a high degree of accuracy or that can be expected to be accurate even with a small $\epsilon$. (Distibute a budget of almost $\epsilon_i$ as much as possible for information that requires a high degree of accuracy.)
 3. Check whether the updated budgets are distributable, using our methods each time.
-4. Ultimately, create a situation where privacy guarantees of $\epsilon_1, \epsilon_2, \dots, \epsilon_k$ or better are achieved for all information, respectively.
+4. Ultimately, create a situation where privacy guarantees of $\epsilon_1, \epsilon_2, \dots, \epsilon_k$ or better are achieved for all information.
 
 Note that our methods are expected to distribute more privacy budgets than the existing Kronecker product-based method (as shown in our results of analysis example).
 
-Although it is also possible to regard $k$-attribute information collectively as single attribute information and employ the most basic randomized response, the privacy level for each attribute information cannot be changed in such a case; therefore, we did not discuss it in this study.
+Although it is also possible to regard $k$-attribute information collectively as single attribute information and employ the most basic randomized response, the privacy level for each attribute information cannot be varied in such a case; therefore, we did not discuss it in this study.
 
 ## Future Directions
 ・The required privacy level for each information should vary depending on the kinds of data and the analysis purpose. In the future, it would be desirable to evaluate not only the privacy level as in our experiments, but also the accuracy in more detail for each analysis method. Ultimately, it would be fascinating to develop an optimal randomized response in terms of the trade-off between privacy and utility.
