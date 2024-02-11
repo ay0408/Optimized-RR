@@ -24,7 +24,7 @@ Although it is also possible to regard $k$-attribute information collectively as
 ## Future Directions
 ・The required privacy level for each information should vary depending on the kinds of data and the analysis purpose. In the future, it would be desirable to evaluate not only the privacy level as in our experiments, but also the accuracy in more detail for each analysis method. Ultimately, it would be fascinating to develop an optimal randomized response in terms of the trade-off between privacy and utility.
 
-・Improving the optimality of our heuristic method (especially when $\epsilon_i$ is small or $a_i$ is large), with reference to the discussion in Section V of our paper. (We should consider a few more matrix elements as variables for events that more than one attribute values differ. ← In this study, all those values are set to equal in the heuristic method.)
+・Improving and theoretically analyzing the optimality of our heuristic method (especially when $\epsilon_i$ is small or $a_i$ is large), with reference to the discussion in Section V of our paper. (We should consider a few more matrix elements as variables for events that more than one attribute values differ. ← In this study, all those values are set to equal in the heuristic method.)
 
 ・Developing better heuristic methods that can achieve the privacy levels that are as close to the input ones as possible. (We feel that this task is not be as easy as it may seem. Our proposed algorithm can achieve privacy levels closer to the input ones by changing the order of attributes, for example, but a method that does not require such a procedure like parameter-tuning would be more desirable.) 
 
