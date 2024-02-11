@@ -1,4 +1,4 @@
-# Privacy-Optimized RR for Multi-Attribute Data
+# Privacy-Optimized RR for Sharing Multi-Attribute Data
 
 This contains Python codes of our experiments on privacy level (for the entire dataset), example of data analysis (using genome statistics), and run time.
 
@@ -34,7 +34,7 @@ Although it is also possible to regard $k$-attribute information collectively as
 
 ## Note
 
-For details of our methods and discussion, please see our paper entitled "Privacy-Optimized Randomized Response for Multi-Attribute Data".
+For details of our methods and discussion, please see our paper entitled "Privacy-Optimized Randomized Response for Sharing Multi-Attribute Data".
 
 ### Contact
 Akito Yamamoto
