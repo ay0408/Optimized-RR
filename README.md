@@ -8,6 +8,17 @@ As an analysis example using our method, we considered the case where the privac
 
 The run time results show that our heuristic method can be performed in about $1$ second even for a large dataset with $k = 1,000$. In Run Time folder, we also provide the results when $k = 10,000$, $k = 100,000$, and $k = 12$ for reference. When $k = 12$, our optimal method took about $2$ hours, which seems to be the limit at which it can be performed in a practical time.
 
+## Important Note
+$X_j$ described in Methods Section is the probability of an individual event that holds the condition associated with $X_j$, and in this study, we assume that the probabilities of these events are equally $X_j$.
+
+For example,  
+$X_{2^k - 1} = \Pr[\mathrm{Input}[1] = d_1 \ \land \ \mathrm{Output}[1] = p_1 \ \land \ \mathrm{Input}[2] = d_2 \ \land \ \mathrm{Output}[2] = p_2 \ \land \cdots \land \mathrm{Input}[k] = d_k \ \land \ \mathrm{Output}[k] = p_k]$  
+$\ \ \ \ \ \ \ \ \ \ = \Pr[\mathrm{Input}[1] = d'_1 \ \land \ \mathrm{Output}[1] = p'_1 \ \land \ \mathrm{Input}[2] = d'_2 \ \land \ \mathrm{Output}[2] = p'_2 \ \land \cdots \land \mathrm{Input}[k] = d'_k \ \land \ \mathrm{Output}[k] = p'_k]$  
+$\ \ \ \ \ \ \ \ \ \ = \cdots$  
+where $d_1 \neq p_1 \ \land \ d_2 \neq p_2 \ \land \cdots \land \ d_k \neq p_k$, $d'_1 \neq p'_1 \ \land \ d'_2 \neq p'_2 \ \land \cdots \land \ d'_k \neq p'_k$, and $d_i, \ d'_i, \ p_i, \ p'_i$ are possible attribute values.
+
+Note that $X_{2^k - 1}$ is not equal to $\Pr[\mathrm{Input}[1] \neq \mathrm{Output}[1] \ \land \ \mathrm{Input}[2] \neq \mathrm{Output}[2] \ \land \cdots \land \ \mathrm{Input}[k] \neq \mathrm{Output}[k]]$.
+
 ## One Possible Policy to Distribute Privacy Budgets (when using our methods)
 
 Set the minimum privacy level to be guaranteed for each of the $k$-attribute information as $\epsilon_1, \epsilon_2, \dots, \epsilon_k$, respectively. Under this condition, consider increasing the accuracy of data analysis as much as possible, when the privacy level for the entire dataset is fixed.
