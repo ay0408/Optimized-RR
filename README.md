@@ -14,7 +14,7 @@ $X_j$ described in Methods Section is the probability of an individual event tha
 For example,  
 $X_{2^k - 1} = \Pr[\mathrm{Output}[1] = p_1 \ \land \ \mathrm{Output}[2] = p_2 \ \land \cdots \land \mathrm{Output}[k] = p_k \ | \ \mathrm{Input}[1] = d_1 \ \land \ \mathrm{Input}[2] = d_2 \ \land \cdots \land \mathrm{Input}[k] = d_k]$
 $\ \ \ \ \ \ \ \ \ \ = \Pr[\mathrm{Output}[1] = p'_1 \ \land \ \mathrm{Output}[2] = p'_2 \ \land \cdots \land \mathrm{Output}[k] = p'_k \ | \ \mathrm{Input}[1] = d'_1 \ \land \ \mathrm{Input}[2] = d'_2 \ \land \cdots \land \mathrm{Input}[k] = d'_k]$  
-$\ \ \ \ \ \ \ \ \ \ = \cdots\ \ \ ,$  
+$\ \ \ \ \ \ \ \ \ \ = \cdots$   ,  
 where $d_1 \neq p_1 \ \land \ d_2 \neq p_2 \ \land \cdots \land \ d_k \neq p_k$, $d'_1 \neq p'_1 \ \land \ d'_2 \neq p'_2 \ \land \cdots \land \ d'_k \neq p'_k$, and $d_i, \ d'_i, \ p_i, \ p'_i$ are possible attribute values.
 
 Note that $X_{2^k - 1}$ is not equal to $\Pr[\mathrm{Input}[1] \neq \mathrm{Output}[1] \ \land \ \mathrm{Input}[2] \neq \mathrm{Output}[2] \ \land \cdots \land \ \mathrm{Input}[k] \neq \mathrm{Output}[k]]$ or $\Pr[\mathrm{Input}[1] = d_1 \ \land \ \mathrm{Output}[1] = p_1 \ \land \ \mathrm{Input}[2] = d_2 \ \land \ \mathrm{Output}[2] = p_2 \ \land \cdots \land \mathrm{Input}[k] = d_k \ \land \ \mathrm{Output}[k] = p_k]$.
