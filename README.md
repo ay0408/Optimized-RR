@@ -12,12 +12,18 @@ The run time results show that our heuristic method can be performed in about $1
 $X_j$ described in Methods Section of our paper is the probability of individual events that hold the condition associated with $X_j$, under the context of Randomized Response. In this study, we assume that the probabilities of these events are equally $X_j$.
 
 For example,  
-$X_{0} = \Pr[\mathrm{Output}[1] = d_1 \ \land \ \mathrm{Output}[2] = d_2 \ \land \cdots \land \mathrm{Output}[k] = d_k \ | \ \mathrm{Input}[1] = d_1 \ \land \ \mathrm{Input}[2] = d_2 \ \land \cdots \land \mathrm{Input}[k] = d_k]$
+$X_{0} = \Pr[\mathrm{Output}[1] = d_1 \ \land \ \mathrm{Output}[2] = d_2 \ \land \cdots \land \mathrm{Output}[k] = d_k \ | \ \mathrm{Input}[1] = d_1 \ \land \ \mathrm{Input}[2] = d_2 \ \land \cdots \land \mathrm{Input}[k] = d_k]$  
 $\ \ \ \ \ = \Pr[\mathrm{Output}[1] = d'_1 \ \land \ \mathrm{Output}[2] = d'_2 \ \land \cdots \land \mathrm{Output}[k] = d'_k \ | \ \mathrm{Input}[1] = d'_1 \ \land \ \mathrm{Input}[2] = d'_2 \ \land \cdots \land \mathrm{Input}[k] = d'_k]$  
-$\ \ \ \ \ = \cdots$   ,  
-where $d_i, \ d'_i$ are possible attribute values.
+$\ \ \ \ \ = \cdots$  ,  
+$X_1 = \Pr[\mathrm{Output}[1] = p_1 \ \land \ \mathrm{Output}[2] = d_2 \ \land \cdots \land \mathrm{Output}[k] = d_k \ | \ \mathrm{Input}[1] = d_1 \ \land \ \mathrm{Input}[2] = d_2 \ \land \cdots \land \mathrm{Input}[k] = d_k]$  
+$\ \ \ \ \ = \Pr[\mathrm{Output}[1] = p'_1 \ \land \ \mathrm{Output}[2] = d'_2 \ \land \cdots \land \mathrm{Output}[k] = d'_k \ | \ \mathrm{Input}[1] = d'_1 \ \land \ \mathrm{Input}[2] = d'_2 \ \land \cdots \land \mathrm{Input}[k] = d'_k]$  
+$\ \ \ \ \ = \cdots$  ,  
+where $d_i, \ d'_i, \ p_1, \ p'_1$ are possible attribute values, $d_1 \neq p_1$, and $d'_1 \neq p'_1$.
 
-Note that $X_{0}$ is not equal to $\Pr[\mathrm{Input}[1] = \mathrm{Output}[1] \ \land \ \mathrm{Input}[2] = \mathrm{Output}[2] \ \land \cdots \land \ \mathrm{Input}[k] = \mathrm{Output}[k]]$ or $\Pr[\mathrm{Input}[1] = d_1 \ \land \ \mathrm{Output}[1] = d_1 \ \land \ \mathrm{Input}[2] = d_2 \ \land \ \mathrm{Output}[2] = d_2 \ \land \cdots \land \mathrm{Input}[k] = d_k \ \land \ \mathrm{Output}[k] = d_k]$.
+Note that  
+$X_{0}$ is not equal to $\Pr[\mathrm{Input}[1] = \mathrm{Output}[1] \ \land \ \mathrm{Input}[2] = \mathrm{Output}[2] \ \land \cdots \land \ \mathrm{Input}[k] = \mathrm{Output}[k]]$ or $\Pr[\mathrm{Input}[1] = d_1 \ \land \ \mathrm{Output}[1] = d_1 \ \land \ \mathrm{Input}[2] = d_2 \ \land \ \mathrm{Output}[2] = d_2 \ \land \cdots \land \mathrm{Input}[k] = d_k \ \land \ \mathrm{Output}[k] = d_k]$,  
+and  
+$X_1$ is not equal to $\Pr[\mathrm{Input}[1] \neq \mathrm{Output}[1] \ \land \ \mathrm{Input}[2] = \mathrm{Output}[2] \ \land \cdots \land \ \mathrm{Input}[k] = \mathrm{Output}[k]]$ or $\Pr[\mathrm{Input}[1] = d_1 \ \land \ \mathrm{Output}[1] \neq d_1 \ \land \ \mathrm{Input}[2] = d_2 \ \land \ \mathrm{Output}[2] = d_2 \ \land \cdots \land \mathrm{Input}[k] = d_k \ \land \ \mathrm{Output}[k] = d_k]$ or $\Pr[\mathrm{Output}[1] \neq d_1 \ \land \ \mathrm{Output}[2] = d_2 \ \land \cdots \land \mathrm{Output}[k] = d_k \ | \ \mathrm{Input}[1] = d_1 \ \land \ \mathrm{Input}[2] = d_2 \ \land \cdots \land \mathrm{Input}[k] = d_k]$
 
 ## One Possible Policy to Distribute Privacy Budgets (when using our methods)
 
