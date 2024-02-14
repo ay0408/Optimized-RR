@@ -8,7 +8,7 @@ As an analysis example using our method, we considered the case where the privac
 
 The run time results show that our heuristic method can be performed in about $1$ second even for a large dataset with $k = 1,000$. In Run Time folder, we also provide the results when $k = 10,000$, $k = 100,000$, and $k = 12$ for reference. When $k = 12$, our optimal method took about $2$ hours, which seems to be the limit at which it can be performed in a practical time.
 
-In Supplements.pdf, we provide a review of related studies, concrete descriptions of our methods, and additional experimental results and discussion.
+In Supplements.pdf, we provide a review of related studies, concrete descriptions of our methods, and experimental results and discussion on analysis example.
 
 ## Important Note
 $X_j$ described in Methods Section of our paper is the probability of individual events that hold the condition associated with $X_j$, under the context of Randomized Response. In this study, we assume that the probabilities of these events are equally $X_j$.
@@ -58,7 +58,7 @@ Although it is also possible to regard $k$-attribute information collectively as
 
 ## Note
 
-For details of our methods and discussion, please see our paper entitled "Privacy-Optimized Randomized Response for Sharing Multi-Attribute Data".
+For details of our methods and discussion, please see our paper entitled "Privacy-Optimized Randomized Response for Sharing Multi-Attribute Data" (arXiv: http://arxiv.org/abs/2402.07584).
 
 ### Contact
 Akito Yamamoto
