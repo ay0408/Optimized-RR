@@ -46,7 +46,7 @@ Note that our methods are expected to distribute more privacy budgets than the e
 Although it is also possible to regard $k$-attribute information collectively as single attribute information and employ the most basic randomized response, the privacy level for each attribute information cannot be varied in such a case; therefore, we did not discuss it in this study.
 
 ## Future Directions
-・The required privacy level for each information should vary depending on the kinds of data and the analysis purpose. In the future, it would be desirable to evaluate not only the privacy level as in our experiments, but also the accuracy in more detail for each analysis method. Ultimately, it would be fascinating to develop an optimal randomized response in terms of the trade-off between privacy and utility.
+・The required privacy level for each information should vary depending on the kinds of data and the analysis purpose. In the future, it would be desirable to evaluate not only the privacy level as in our experiments, but also the accuracy in more detail for each analysis method. Ultimately, it would be fascinating to develop an optimal randomized response in terms of the trade-off between privacy and utility. (Are there cases where the distortion matrix $\mathbf{P}$ should not be a symmetric matrix?)
 
 ・Improving and theoretically analyzing the optimality of our heuristic method (especially when $\epsilon_i$ is small or $a_i$ is large), with reference to the discussion in Experiments and Discussion Section of our paper. (We should consider a few more matrix elements as variables for events that more than one attribute values differ. ← In this study, all those values are set to equal in the heuristic method.)
 
