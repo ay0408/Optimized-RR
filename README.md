@@ -25,6 +25,11 @@ $X_{0}$ is not equal to $\Pr[\mathrm{Input}[1] = \mathrm{Output}[1] \ \land \ \m
 and  
 $X_1$ is not equal to $\Pr[\mathrm{Input}[1] \neq \mathrm{Output}[1] \ \land \ \mathrm{Input}[2] = \mathrm{Output}[2] \ \land \cdots \land \ \mathrm{Input}[k] = \mathrm{Output}[k]]$ or $\Pr[\mathrm{Input}[1] = d_1 \ \land \ \mathrm{Output}[1] \neq d_1 \ \land \ \mathrm{Input}[2] = d_2 \ \land \ \mathrm{Output}[2] = d_2 \ \land \cdots \land \mathrm{Input}[k] = d_k \ \land \ \mathrm{Output}[k] = d_k]$ or $\Pr[\mathrm{Output}[1] \neq d_1 \ \land \ \mathrm{Output}[2] = d_2 \ \land \cdots \land \mathrm{Output}[k] = d_k \ | \ \mathrm{Input}[1] = d_1 \ \land \ \mathrm{Input}[2] = d_2 \ \land \cdots \land \mathrm{Input}[k] = d_k]$
 
+And then, the relations  
+$\ \ \ \ \ \ \ \Pr[\mathrm{Output}[i] = u | \mathrm{Input}[i] = u] = \sum_{j\ :\ i \notin S_j} X_j \cdot t_j$  
+$\mathrm{and} \ \Pr[\mathrm{Output}[i] = u | \mathrm{Input}[i] = v] = \sum_{j\ :\ i \in S_j} \frac{X_j \cdot t_j}{a_i - 1}$  
+hold. (For details, please refer to our paper.)
+
 ## One Possible Policy to Distribute Privacy Budgets (when using our methods)
 
 Set the minimum privacy level to be guaranteed for each of the $k$-attribute information as $\epsilon_1, \epsilon_2, \dots, \epsilon_k$, respectively. Under this condition, consider increasing the accuracy of data analysis as much as possible, when the privacy level for the entire dataset is fixed.
