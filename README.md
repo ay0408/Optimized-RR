@@ -25,7 +25,7 @@ where $d_i, \ d'_i, \ p_1, \ p'_1$ are possible attribute values, $d_1 \neq p_1$
 Note that  
 $X_{0}$ is not equal to $\Pr[\mathrm{Input}[1] = \mathrm{Output}[1] \ \land \ \mathrm{Input}[2] = \mathrm{Output}[2] \ \land \cdots \land \ \mathrm{Input}[k] = \mathrm{Output}[k]]$ or $\Pr[\mathrm{Input}[1] = d_1 \ \land \ \mathrm{Output}[1] = d_1 \ \land \ \mathrm{Input}[2] = d_2 \ \land \ \mathrm{Output}[2] = d_2 \ \land \cdots \land \mathrm{Input}[k] = d_k \ \land \ \mathrm{Output}[k] = d_k]$,  
 and  
-$X_1$ is not equal to $\Pr[\mathrm{Input}[1] \neq \mathrm{Output}[1] \ \land \ \mathrm{Input}[2] = \mathrm{Output}[2] \ \land \cdots \land \ \mathrm{Input}[k] = \mathrm{Output}[k]]$ or $\Pr[\mathrm{Input}[1] = d_1 \ \land \ \mathrm{Output}[1] \neq d_1 \ \land \ \mathrm{Input}[2] = d_2 \ \land \ \mathrm{Output}[2] = d_2 \ \land \cdots \land \mathrm{Input}[k] = d_k \ \land \ \mathrm{Output}[k] = d_k]$ or $\Pr[\mathrm{Output}[1] \neq d_1 \ \land \ \mathrm{Output}[2] = d_2 \ \land \cdots \land \mathrm{Output}[k] = d_k \ | \ \mathrm{Input}[1] = d_1 \ \land \ \mathrm{Input}[2] = d_2 \ \land \cdots \land \mathrm{Input}[k] = d_k]$
+$X_1$ is not equal to $\Pr[\mathrm{Input}[1] \neq \mathrm{Output}[1] \ \land \ \mathrm{Input}[2] = \mathrm{Output}[2] \ \land \cdots \land \ \mathrm{Input}[k] = \mathrm{Output}[k]]$ or $\Pr[\mathrm{Input}[1] = d_1 \ \land \ \mathrm{Output}[1] \neq d_1 \ \land \ \mathrm{Input}[2] = d_2 \ \land \ \mathrm{Output}[2] = d_2 \ \land \cdots \land \mathrm{Input}[k] = d_k \ \land \ \mathrm{Output}[k] = d_k]$ or $\Pr[\mathrm{Output}[1] \neq d_1 \ \land \ \mathrm{Output}[2] = d_2 \ \land \cdots \land \mathrm{Output}[k] = d_k \ | \ \mathrm{Input}[1] = d_1 \ \land \ \mathrm{Input}[2] = d_2 \ \land \cdots \land \mathrm{Input}[k] = d_k]$.
 
 And then, the relations  
 $\ \ \ \ \ \ \ \Pr[\mathrm{Output}[i] = u | \mathrm{Input}[i] = u] = \sum_{j\ :\ i \notin S_j} X_j \cdot t_j$  
@@ -58,7 +58,7 @@ Although it is also possible to regard $k$-attribute information collectively as
 
 ## Note
 
-For details of our methods and discussion, please see our paper entitled "Privacy-Optimized Randomized Response for Sharing Multi-Attribute Data" (arXiv: http://arxiv.org/abs/2402.07584).
+For details of our methods and discussion, please see our paper entitled "Privacy-Optimized Randomized Response for Sharing Multi-Attribute Data" (to appear at IEEE ISCC 2024, full ver. → arXiv: http://arxiv.org/abs/2402.07584).
 
 ### Contact
 Akito Yamamoto
