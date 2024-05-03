@@ -56,6 +56,8 @@ Although it is also possible to regard $k$-attribute information collectively as
 
 ・Enhancing our methods under other concepts of differential privacy like One-Sided Differential Privacy [[Kotsogiannis et al., 2020](https://ieeexplore.ieee.org/document/9101725)].
 
+・Considering the Randomized Response techniques under $(\epsilon, \delta)$-differential privacy (cf. the discussion in the Conclusion Section).
+
 ## Note
 
 For details of our methods and discussion, please see our paper entitled "Privacy-Optimized Randomized Response for Sharing Multi-Attribute Data" (to appear at IEEE ISCC 2024, full ver. → arXiv: http://arxiv.org/abs/2402.07584).
