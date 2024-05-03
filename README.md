@@ -11,7 +11,7 @@ The run time results show that our heuristic method can be performed in about $1
 In Supplements.pdf, we provide a review of related studies, concrete descriptions of our methods, and experimental results and discussion on analysis example.
 
 ## Important Note
-$X_j$ described in Methods Section of our paper is the probability of individual events that hold the condition associated with $X_j$, under the context of Randomized Response. In this study, we assume that the probabilities of these events are equally $X_j$.
+$X_j$ described in Methods Section of our paper is the probability of individual events that hold the condition associated with $X_j$, under the context of Randomized Response. In this study, we assume that the probabilities of all these events are equally $X_j$. (Under this assumption, the distiorion matrix $\mathbf{P}$ becomes a symmetric matrix.)
 
 For example,  
 $X_{0} = \Pr[\mathrm{Output}[1] = d_1 \ \land \ \mathrm{Output}[2] = d_2 \ \land \cdots \land \mathrm{Output}[k] = d_k \ | \ \mathrm{Input}[1] = d_1 \ \land \ \mathrm{Input}[2] = d_2 \ \land \cdots \land \mathrm{Input}[k] = d_k]$  
