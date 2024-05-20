@@ -11,6 +11,9 @@ The run time results show that our heuristic method can be performed in about $1
 In Supplements.pdf, we provide a review of related studies, concrete descriptions of our methods, and experimental results and discussion on analysis example.
 
 ## Important Note
+
+### Elements of Distortion Matrix $\mathbf{P}$
+
 $X_j$ described in Methods Section of our paper is the probability of individual events that hold the condition associated with $X_j$, under the context of Randomized Response. In this study, we assume that the probabilities of all these events are equally $X_j$. (Under this assumption, the distiorion matrix $\mathbf{P}$ becomes a symmetric matrix.)
 
 For example,  
@@ -31,6 +34,14 @@ And then, the relations
 $\ \ \ \ \ \ \ \Pr[\mathrm{Output}[i] = u | \mathrm{Input}[i] = u] = \sum_{j\ :\ i \notin S_j} X_j \cdot t_j$  
 $\mathrm{and} \ \Pr[\mathrm{Output}[i] = u | \mathrm{Input}[i] = v] = \sum_{j\ :\ i \in S_j} \frac{X_j \cdot t_j}{a_i - 1}$  
 hold. (For details, please refer to our paper.)
+
+### Another Solution to Find "Near-Optimal" Solution
+
+We may construct a linear programming problem for $k+1$ variables (from $x_{k,0}$ to $x_{k,k}$ in our proposed method). 
+
+However, our method is (currently) more efficient than solving the linear programming problem; therefore, to efficiently construct a randomized response that achieves stronger privacy guarantees than the method using the Kronecker product, our method might be more useful (and is more interesting). 
+
+Of course, there may be cases where solving the linear programming problem would be superior, depending on the optimality and the acheved $\epsilon_i$, and this will be an important issue to be addressed in the future.
 
 ## One Possible Policy to Distribute Privacy Budgets (when using our methods)
 
