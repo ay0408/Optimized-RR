@@ -39,7 +39,7 @@ hold. (For details, please refer to our paper.)
 
 We may construct a linear programming problem for $k+1$ variables (from $x_{k,0}$ to $x_{k,k}$ in our proposed method). 
 
-However, our method is (currently) more efficient than solving the linear programming problem; therefore, to efficiently construct a randomized response that achieves stronger privacy guarantees than the method using the Kronecker product, our method might be more useful (and is more interesting). 
+However, our method is (currently) more efficient than solving the linear programming problem (cf. [Cohen, Lee, and Song, 2021](https://doi.org/10.1145/3424305) and [Brand, 2020](https://doi.org/10.1137/1.9781611975994.16)); therefore, to efficiently construct a randomized response that achieves stronger privacy guarantees than the method using the Kronecker product, our method might be more useful (and is more interesting). 
 
 Of course, there may be cases where solving the linear programming problem would be superior, depending on the optimality and the acheved $\epsilon_i$, and this will be an important issue to be addressed in the future.
 
