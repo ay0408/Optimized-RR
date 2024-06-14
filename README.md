@@ -63,9 +63,9 @@ Although it is also possible to regard $k$-attribute information collectively as
 
 ・Developing better heuristic methods that can achieve the privacy levels that are as close to the input ones as possible. (We feel that this task is not be as easy as it may seem. Our proposed algorithm can achieve privacy levels closer to the input ones by changing the order of attributes, for example, but a method that does not require such a procedure like parameter-tuning would be more desirable.) 
 
-・Developing optimal methods for multi-dimensional "numeric" data. (This study focused on categorical data.) ← One possible derection is to extend [Duchi et al., 2018](https://doi.org/10.1080/01621459.2017.1389735) and [Wang et al., 2019](https://ieeexplore.ieee.org/abstract/document/8731512)'s methods by combining them with our methods. **As for Algorithm 4 in the paper of Wang et al., given that it can also handle categorical data, our proposed methods already have the potential to increase the privacy budget ($\epsilon/k$) in Step 5 when handling categorical data and improve the output accuracy.**
+・Developing optimal methods for multi-dimensional "numeric" data. (This study focused on categorical data.) ← One possible derection is to extend [Duchi et al., 2018](https://doi.org/10.1080/01621459.2017.1389735) and [Wang et al., 2019](https://doi.org/10.1109/ICDE.2019.00063)'s methods by combining them with our methods. **As for Algorithm 4 in the paper of Wang et al., given that it can also handle categorical data, our proposed methods already have the potential to increase the privacy budget ($\epsilon/k$) in Step 5 when handling categorical data and improve the output accuracy.**
 
-・Enhancing our methods under other concepts of differential privacy like One-Sided Differential Privacy [[Kotsogiannis et al., 2020](https://ieeexplore.ieee.org/document/9101725)].
+・Enhancing our methods under other concepts of differential privacy like One-Sided Differential Privacy [[Kotsogiannis et al., 2020](https://doi.org/10.1109/ICDE48307.2020.00049)].
 
 ・Considering the Randomized Response techniques under $(\epsilon, \delta)$-differential privacy (cf. the discussion in the Conclusion Section).
 
