@@ -71,7 +71,7 @@ Although it is also possible to regard $k$-attribute information collectively as
 
 ## Note
 
-For details of our methods and discussion, please see our paper entitled "Privacy-Optimized Randomized Response for Sharing Multi-Attribute Data" (https://doi.org/10.1109/ISCC61673.2024.10733730) presented at IEEE ISCC 2024 (arXiv: http://arxiv.org/abs/2402.07584).
+For details of our methods and discussion, please see our paper entitled "Privacy-Optimized Randomized Response for Sharing Multi-Attribute Data" (https://doi.org/10.1109/ISCC61673.2024.10733730, arXiv: http://arxiv.org/abs/2402.07584) presented at IEEE ISCC 2024.
 
 ### Contact
 Akito Yamamoto
